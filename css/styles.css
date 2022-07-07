@@ -1,0 +1,22 @@
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+p {
+  color: #757575;
+}
+.list {
+  list-style: none;
+}
+
+/* logo */
+
+/* site-nav */
+
+.site-nav .link {
+  color: #212121;
+}
+.site-nav .link:hover,
+.link .site-nav .link:focus {
+  color: #2196f3;
+}
