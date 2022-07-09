@@ -23,10 +23,31 @@ body {
 /* logo */
 
 .logo {
-  font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+  text-decoration: none;
+ font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--accent-color)
+}
+
+.accent-logo {
+  font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--title-text-color)
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
+color:var(--primary-white-color)
 }
 
 /* site-nav */
@@ -61,9 +82,8 @@ body {
 
 /* hero */
 
-.button {
-  color: var(--accent-color);
-  background-color: var(--primary-white-color);
+.hero {
+  background-color: #2f303a;
 }
 
 .button.primary {
@@ -74,10 +94,11 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: 0;
 }
 
 .hero-title {
-  /* color:var(--primary-white-color); */
+  color: var(--primary-white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -126,6 +147,10 @@ p {
 
 /* our team */
 
+.section-team {
+  background-color: #F5F4FA;
+}
+
 .team {
   color: var(--title-text-color);
   font-weight: 700;
@@ -145,7 +170,11 @@ p {
 
 /* footer */
 
-/* .address-footer { 
+.footer {
+  background-color: #2f303a;
+}
+
+.address-footer { 
   color: var(--primary-white-color);
   font-weight: 400;
   font-size: 14px;
