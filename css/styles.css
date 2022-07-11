@@ -5,11 +5,13 @@
   --primary-white-color: #ffffff;
   --second-background-color: #f5f4fa;
   --hero-footer-color: #2f303a;
+  --button-primary-focus: #188ce8
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--title-text-color);
+  font: optional; 14px;
 
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
@@ -35,20 +37,10 @@ body {
 }
 
 .accent-logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .footer-logo {
-  font-family: "Raleway";
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
   color: var(--primary-white-color);
 }
 
@@ -88,6 +80,7 @@ body {
   background-color: var(--hero-footer-color);
 }
 
+
 .button.primary {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
@@ -97,6 +90,12 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   border: 0;
+}
+
+.button.primary:focus,
+.button.primary:hover {
+  background-color:var(--button-primary-focus);
+  color:var(--primary-white-color);
 }
 
 .hero-title {
@@ -129,12 +128,28 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
 }
-p {
+.plain-text {
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+}
+
+.profession {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.18;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
+}
+
+.all-sites {
+  font-weight: 400;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color:var(--primary-text-color);
 }
 
 /* work-examples */
@@ -178,6 +193,7 @@ p {
 
 .address-footer {
   color: var(--primary-white-color);
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -185,6 +201,7 @@ p {
 }
 
 .contact-footer {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
